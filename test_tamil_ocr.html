@@ -34,12 +34,6 @@ function progressUpdate(packet){
 		log.insertBefore(line, log.firstChild)
 	}
 }
-function TamilOCR(file){	
-	var reader = new FileReader();
-	$("#userimage").attr('src',file);	
-	
-}
-
 
 function recognizeFile(file){	
 	document.querySelector("#log").innerHTML = ''
